@@ -124,7 +124,8 @@ nav ul li a,
     font-weight: bold;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+.contents li a:hover {
     background-color: #0dd621;
 }
 
