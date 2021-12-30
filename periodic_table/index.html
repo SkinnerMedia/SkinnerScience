@@ -7,6 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../stylesheet.css">
     <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
+    <style>
+        @media print {
+            header {
+                display: block;
+                position: absolute;
+                bottom: 0;
+                top: auto;
+                background-color: transparent;
+                border-bottom: none;
+            }
+
+            .logo {
+                float: right;
+            }
+
+            .logo h1 {
+                color: black;
+            }
+        }
+    </style>
     <title>Periodic Table | SkinnerScience</title>
 </head>
 
@@ -59,11 +79,13 @@
         <h1>
             The Periodic Table of Elements
         </h1>
-        <img src="../files/periodic_tables/PERIODIC_TABLE_FULL.PNG" width="100%" alt="Periodic Table">
-        <h3>
+        <div class="periodic_table_div">
+            <img src="../files/periodic_tables/PERIODIC_TABLE_FULL.PNG" class="periodic_table_img" alt="Periodic Table">
+        </div>
+        <h3 class="resp-hide">
             Known Errors:
         </h3>
-        <ul>
+        <ul class="resp-hide">
             <li>Element 103, Lawrencium, should have the chemical symbol Lr.</li>
             <li>Element 91, Protactinium, has been misspelled as Proactinium.</li>
             <li>
@@ -81,14 +103,14 @@
                     class="link">here</a>.
             </li>
         </ul>
-        <h3>
+        <h3 class="resp-hide">
             Version 2:
         </h3>
-        <p>
+        <p class="resp-hide">
             The SkinnerScience Periodic Table Version 2 is currently in production, it will resolve errors in elements
             103 and 91 (listed above).
         </p>
-        <p>
+        <p class="resp-hide">
             You can view the full datasheet <a
                 href="../files/datasheets/set_01/D1_-_PERIODIC_TABLE_OF_ELEMENTS.PDF">here</a>.
         </p>
