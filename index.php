@@ -11,50 +11,7 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="javascript:void(0)">
-                <img src="favicon.svg" alt="Logo" width="70em">
-                <h1>SkinnerScience</h1>
-            </a>
-        </div>
-        <nav>
-            <p>
-                <small>
-                    Copyright &copy; Neo Skinner, 2021
-                </small>
-            </p>
-            <ul>
-                <li>
-                    <a href="periodic_table/">Periodic Table</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Standard Model</a>
-                </li>
-                <li>
-                    <a href="elements/">Elements</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Particles</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Scientists</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Governing Bodies</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Datasheets</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">Main Wiki</a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)">About</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <?php include 'header.php' ?>
     <main class="home">
         <div class="welcome">
             <h1>
