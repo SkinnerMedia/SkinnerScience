@@ -168,31 +168,64 @@ nav ul li a:hover,
 
 table {
     border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+table th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #7F7F7F;
+    color: #FFFFFF;
+}
+
+.hazards {
+    background-color: #fdc134;
+    color: #000000;
 }
 
 table td {
     border: 1px solid black;
     border-collapse: collapse;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: .1em;
+    padding-bottom: .1em;
+}
+
+.periodic_table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.periodic_table td {
     text-align: center;
     height: 70px;
     width: 70px;
     cursor: pointer;
+    padding: 0;
 }
 
-table .exception {
+.periodic_table .exception {
     border: none;
     cursor: initial;
 }
 
-table .break-start {
+.periodic_table .break-start {
     height: inherit;
     width: inherit;
 }
 
-table .break-end {
+.periodic_table .break-end {
     border-left: 5px solid black;
     height: inherit;
     width: inherit;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img.center {
+    display: block;
 }
