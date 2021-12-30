@@ -64,14 +64,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-p a {
+p a, .link {
     color: black;
     text-decoration: none;
     padding: .2em;
     background-color: #2aff40;
 }
 
-p a:hover {
+p a:hover, .link:hover {
     background-color: #0dd621;
 }
 
@@ -164,4 +164,35 @@ nav ul li a:hover,
 
 .about {
     width: 30%;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+table .exception {
+    border: none;
+    cursor: initial;
+}
+
+table .break-start {
+    height: inherit;
+    width: inherit;
+}
+
+table .break-end {
+    border-left: 5px solid black;
+    height: inherit;
+    width: inherit;
 }

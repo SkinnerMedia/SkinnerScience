@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+  <title>404 | SkinnerScience</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="javascript:void(0)">
+        <img src="favicon.svg" alt="Logo" width="70em">
+        <h1>SkinnerScience</h1>
+      </a>
+    </div>
+    <nav>
+      <p>
+        <small>
+          Copyright &copy; Neo Skinner, 2021
+        </small>
+      </p>
+      <ul>
+        <li>
+          <a href="periodic_table/">Periodic Table</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Standard Model</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Elements</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Particles</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Scientists</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Governing Bodies</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Datasheets</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">Main Wiki</a>
+        </li>
+        <li>
+          <a href="javascript:void(0)">About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="home">
+    <div class="welcome">
+      <h1 style="font-size: 15em;">
+        404
+      </h1>
+      <h1>
+        Looks Like You&apos;re a Bit Lost.
+      </h1>
+      <h2>
+        <br>
+        <a id="back-link" class="link" href="javascript:void(0);">Go Back</a>
+      </h2>
+    </div>
+    <div class="about">
+      <h2>
+        You take the blue pill,
+      </h2>
+      <p>
+        the story ends, you wake up in your bed and believe whatever you want to believe.
+      </p>
+      <h2>
+        You take the red pill,
+      </h2>
+      <p>
+        you stay in wonderland, and I show you how deep the rabbit hole goes.
+      </p>
+      <h2>
+        I&apos;m only offering the truth...
+      </h2>
+      <p>
+        Nothing more.
+      </p>
+    </div>
+    <div class="about">
+      <h1>
+        Why is this page unavailable?
+      </h1>
+      <h2>
+        This site is constantly under construction
+      </h2>
+      <p>
+        It may just be that this page is still being created or modified and isn&apos;t available to the public just
+        yet or that it has moved from this URL. Please be patient, if you followed a link from this website to access
+        this page then we&apos;re still working on it at the moment.
+      </p>
+      <h2>
+        Someone misremembered
+      </h2>
+      <p>
+        This link may be inaccessible because someone copied the correct link incorrectly or forgot where this page
+        should be. Feel free to navigate to it yourself using the links on this site.
+      </p>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      if (document.referrer &&
+        document.location.host &&
+        document.referrer.match(new RegExp("^https?://" + document.location.host))) {
+        document.getElementById("back-link").setAttribute("href", document.referrer);
+      }
+    }
+    )();
+  </script>
+</body>
+
+</html>
