@@ -207,6 +207,54 @@ nav ul li a:hover,
     padding: .5em;
 }
 
+.form {
+    background-color: lightgray;
+    padding: .5em 1em .5em .5em;
+}
+
+.form label {
+    font-weight: bold;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.input-group input, .input-group textarea {
+    outline: none;
+    background: none;
+    border: .15em solid black;
+    margin-right: -1em;
+    color: inherit;
+    border-radius: 0;
+    font-family: inherit;
+    width: 100%;
+}
+
+.input-group input:focus, .input-group textarea:focus {
+    border: .15em solid dimgray;
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+.form button {
+    background-color: #2aff40;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+    padding: .4em;
+}
+
+.form button:hover {
+    background-color: #0dd621;
+}
+
 .section ul {
     margin: 0;
 }
