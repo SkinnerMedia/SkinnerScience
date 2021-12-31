@@ -165,7 +165,10 @@
                                 <textarea name="Body" rows="15"></textarea>
                             </label>
                         </div>
-                        <button type="submit" name="Submit">Submit</button>
+                        <div style="display: flex;">
+                            <button id="form-submit" type="submit" name="Submit" onclick="form_submit()">Submit</button>
+                            <p id="form-response"></p>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -174,6 +177,13 @@
     <script>
         var dt = new Date();
         document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
+    </script>
+    <script>
+        function form_submit() {
+            document.getElementById("form-submit").addEventListener("click", () => {
+                document.getElementById("form-response").value += "Form Submitted!";
+            });
+        }
     </script>
 </body>
 
