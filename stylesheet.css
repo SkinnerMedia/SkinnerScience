@@ -58,6 +58,7 @@ header {
 
 main {
     margin: 1em;
+    margin-bottom: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -202,6 +203,53 @@ nav ul li a:hover,
 .section article {
     background-color: lightgray;
     padding: .5em;
+}
+
+.section li {
+    background-color: lightgray;
+    padding: .5em;
+    height: 20em;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+}
+
+.section .list {
+    background-color: transparent;
+    cursor: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.thumbnail-wrapper {
+    overflow: hidden;
+    height: 20em;
+    display: flex;
+}
+
+.thumbnail {
+    display: block;
+    z-index: 1;
+    object-fit: cover;
+    align-self: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.section .display a {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.5em;
+}
+
+.section .list a {
+    z-index: 0;
+    position: relative;
+    margin-bottom: 1em;
+    font-size: 1.5em;
 }
 
 .section h2 {
