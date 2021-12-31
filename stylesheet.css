@@ -193,13 +193,13 @@ nav ul li a:hover,
 
 .sections {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     margin: 0;
 }
 
 .section {
-    width: 30%;
-    margin: 0;
+    width: 31.33%;
+    margin: 0 1em;
 }
 
 .section article {
@@ -215,6 +215,7 @@ nav ul li a:hover,
     background-color: lightgray;
     padding: .5em;
     height: 20em;
+    width: 100%;
     position: relative;
     cursor: pointer;
     display: flex;
