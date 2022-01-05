@@ -1,5 +1,53 @@
 [[redirects]]
-  from = "/datasheets/d1"
-  to = "/files/datasheets/set_01/D1_-_PERIODIC_TABLE_OF_ELEMENTS.PDF"
+  from = "/datasheets/D1"
+  to = "/files/datasheets/set_01/d1_periodic_table_of_elements.pdf"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/datasheets/D2"
+  to = "/files/datasheets/set_01/d2_properties_of_elements.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/datasheets/D3"
+  to = "/files/datasheets/set_01/d3_properties_of_isotopes.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/datasheets/sources"
+  to = "/files/datasheets/set_01/sources.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/elements/hydrogen/datasheet"
+  to = "/files/elements/hydrogen.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/elements/helium/datasheet"
+  to = "/files/elements/helium.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/elements/lithium/datasheet"
+  to = "/files/elements/lithium.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/elements/beryllium/datasheet"
+  to = "/files/elements/beryllium.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
+  force = false
