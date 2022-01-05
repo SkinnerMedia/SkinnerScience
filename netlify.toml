@@ -2,3 +2,4 @@
   from = "/datasheets/d1"
   to = "/files/datasheets/set_01/D1_-_PERIODIC_TABLE_OF_ELEMENTS.PDF"
   status = 200
+  force = true
