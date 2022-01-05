@@ -47,7 +47,22 @@
   force = true
 
 [[redirects]]
+  from = "/files/"
+  status = 200
+  force = true
+  conditions = {Role = ["admin"]}
+
+[[redirects]]
+  from = "/files/"
+  to = "/files/login.html"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/404.html"
   status = 404
   force = false
+
+[functions]
+  directory = "functions"

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
+    <title>Files | SkinnerScience</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../">
+                <img src="../favicon.svg" alt="Logo" width="70em">
+                <h1>SkinnerScience</h1>
+            </a>
+        </div>
+        <nav>
+            <p>
+                <small>
+                    Copyright &copy; Neo Skinner, 2021-<span id="copyright-year"></span>
+                </small>
+            </p>
+            <ul>
+                <li>
+                    <h2>
+                        Filesystem, not for public use.
+                    </h2>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            Password Protected.
+        </h1>
+        <h2>
+            Enter your admin password to enter this section.
+        </h2>
+        <br>
+        <div style="width: 30%;">
+            <form action="/.netlify/functions/login" method="POST" class="form">
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" />
+                </div>
+                <button type="submit">Get access</button>
+            </form>
+        </div>
+    </main>
+    <script src="../copyright-year.js"></script>
+</body>
+
+</html>
