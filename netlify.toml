@@ -47,6 +47,48 @@
   force = true
 
 [[redirects]]
+  from = "/periodic_table/styles/full"
+  to = "/files/periodic_tables/full.png"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/periodic_table/styles/blank"
+  to = "/files/periodic_tables/blank.png"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/periodic_table/styles/electronic_blocks"
+  to = "/files/periodic_tables/electronic_blocks.png"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/periodic_table/styles/extended_group_numbers"
+  to = "/files/periodic_tables/extended_group_numbers.png"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/periodic_table/styles/extended_group_numbers_+_names"
+  to = "/files/periodic_tables/extended_group_numbers_+_names.png"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/periodic_table/styles/simplified_group_numbers"
+  to = "/files/periodic_tables/simplified_group_numbers.png"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/periodic_table/styles/simplified_group_numbers_+_names"
+  to = "/files/periodic_tables/simplified_group_numbers_+_names.png"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/404.html"
   status = 404
