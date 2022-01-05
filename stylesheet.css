@@ -72,7 +72,7 @@ h1 small {
     color: #7F7F7F;
 }
 
-p a, .link {
+p a:not(.inline-link), .link {
     color: black;
     text-decoration: none;
     padding: .2em;
@@ -141,7 +141,7 @@ p a, .link {
     transform-origin: bottom;
 }
 
-p a:hover, .link:hover {
+p a:hover:not(.inline-link), .link:hover {
     background-color: #0dd621;
 }
 
