@@ -1,0 +1,6 @@
+1 - https://en.wikipedia.org/wiki/List_of_chemical_elements - Click on element name to load page
+2 - https://en.wikipedia.org/wiki/Flame_test
+    https://www.compoundchem.com/wp-content/uploads/2014/02/Metal-Ion-Flame-Test-Colours-Jan-15.pdf
+3 - https://skinnerscience.netlify.app/periodic_table/styles/full - Locate element name on table
+4 - https://sourceforge.net/projects/bohrmodelgenera/
+5 - https://periodic-table.tech/ - Click on element name to load page
