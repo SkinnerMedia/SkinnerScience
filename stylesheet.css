@@ -262,18 +262,23 @@ nav ul li a:hover,
     margin-bottom: 1em;
 }
 
-.input-group input, .input-group textarea {
+.input-group input, .input-group textarea, .input-group select {
     outline: none;
     background: none;
     border: .15em solid black;
-    margin-right: -1em;
     color: inherit;
     border-radius: 0;
     font-family: inherit;
     width: 100%;
 }
 
-.input-group input:focus, .input-group textarea:focus {
+.input-group select {
+    box-sizing: content-box;
+    display: unset;
+    width: 100.8%;
+}
+
+.input-group input:focus, .input-group textarea:focus, .input-group select:focus {
     border: .15em solid dimgray;
 }
 
