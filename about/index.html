@@ -150,8 +150,13 @@
                     Contact General Enquiries
                 </h2>
                 <div class="form">
-                    <form data-netlify="true" method="POST" enctype="multipart/form-data"
-                        name="Contact General Enquiries">
+                    <form data-netlify="true" method="POST" enctype="multipart/form-data" data-netlify-recaptcha="true"
+                        netlify-honeypot="bot-field" name="Contact General Enquiries">
+                        <div class="input-group hidden">
+                            <label>Don&apos;t fill this out if you&apos;re human:
+                                <input name="bot-field" />
+                            </label>
+                        </div>
                         <div class="input-group">
                             <label>First Name:
                                 <br>
