@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../stylesheet.css">
+  <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon">
+  <title>Form Submission Successful | SkinnerScience</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="../../">
+        <img src="../../favicon.svg" alt="Logo" width="70em">
+        <h1>SkinnerScience</h1>
+      </a>
+    </div>
+    <nav>
+      <p>
+        <small>
+          Copyright &copy; Neo Skinner, 2021-<span id="copyright-year"></span>
+        </small>
+      </p>
+      <ul>
+        <li>
+          <a href="../../periodic_table/">Periodic Table</a>
+        </li>
+        <li>
+          <a href="../../standard_model/">Standard Model</a>
+        </li>
+        <li>
+          <a href="../../elements/">Elements</a>
+        </li>
+        <li>
+          <a href="../../particles/">Particles</a>
+        </li>
+        <li>
+          <a href="../../scientists/">Scientists</a>
+        </li>
+        <li>
+          <a href="../../governing_bodies/">Governing Bodies</a>
+        </li>
+        <li>
+          <a href="../../datasheets/">Datasheets</a>
+        </li>
+        <li>
+          <a href="../../wiki/">Main Wiki</a>
+        </li>
+        <li>
+          <a href="../../about/">About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="sections">
+    <div class="section"></div>
+    <div class="section">
+      <h1 style="font-size: 10em;">
+        Success.
+      </h1>
+      <h1>
+        You&apos;re inquiry had been submitted successfully.
+      </h1>
+      <h2>
+        <br>
+        <a id="back-link" class="link" href="javascript:void(0);">Go Back</a>
+      </h2>
+    </div>
+    <div class="section"></div>
+  </main>
+  <script>
+    (function () {
+      if (document.referrer &&
+        document.location.host &&
+        document.referrer.match(new RegExp("^https?://" + document.location.host))) {
+        document.getElementById("back-link").setAttribute("href", document.referrer);
+      }
+    }
+    )();
+  </script>
+  <script src="../../copyright-year.js"></script>
+</body>
+
+</html>
