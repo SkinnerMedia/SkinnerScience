@@ -190,13 +190,6 @@
         var dt = new Date();
         document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
     </script>
-    <script>
-        function form_submit() {
-            document.getElementById("form-submit").addEventListener("click", () => {
-                document.getElementById("form-response").value += "Form Submitted!";
-            });
-        }
-    </script>
     <script src="../copyright-year.js"></script>
 </body>
 

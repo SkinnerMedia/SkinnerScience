@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../stylesheet.css">
     <link rel="shortcut icon" href="../../favicon.svg" type="image/x-icon">
-    <title>About: The Team | SkinnerScience</title>
+    <title>About: References Templates | SkinnerScience</title>
 </head>
 
 <body>
@@ -57,72 +57,65 @@
     </header>
     <main>
         <h1>
-            The Team.
+            References.
         </h1>
         <br>
         <div class="sections">
             <div class="section">
                 <h2>
-                    Departments
+                    Referencing the Entire Website
                 </h2>
-                <h3>
-                    Administration
-                </h3>
                 <p>
-                    The department responsible for this website&apos;s upkeep, they create the pages and code
-                    modifications to ensure this website runs smoothly for every visitor.
+                    When referencing the entire website, please use this citation:
                 </p>
-                <h3>
-                    Datasheet Information
-                </h3>
                 <p>
-                    The department responsible for the creation of datasheets, whether for elements or our <em>D#</em>
-                    collection.
+                    <em>"Skinner, N. and the SkinnerScience team(2021). SkinnerScience,
+                        https://skinnerscience.netlify.app [Accessed <span id="datetime"></span>]"</em>
                 </p>
-                <h3>
-                    Element Information
-                </h3>
                 <p>
-                    The department responsible for gathering and presenting the facts and figures of the element pages.
-                </p>
-                </p>
-                <h3>
-                    Advanced Information
-                </h3>
-                <p>
-                    The department responsible for our long-form write-ups, whether part of a blog post or as the
-                    long-form information on our element pages.
+                    You may use data from this website in any non-commercial work you wish to undertake without the
+                    owners permission providing that the above statement is published clearly in the work. You may not
+                    attempt to replicate this website in any clearly identifiable way or use its data in any commercial
+                    work without prior permission from the author.
                 </p>
                 <h2>
-                    Commissions
+                    Referencing Specific Sections
                 </h2>
                 <h3>
                     Periodic Table
                 </h3>
                 <p>
-                    The commission responsible for creating and modifying our periodic table.
+                    When referencing the periodic table section, please use this citation:
+                </p>
+                <p>
+                    <em>"Skinner, N., The SkinnerScience Administration Department, and The SkinnerScience Periodic
+                        Table Commission (2021). The SkinnerScience Periodic Table Version 2.0,
+                        https://skinnerscience.netlify.app/periodic_table [Accessed <span id="datetime-2"></span>]"</em>
+                </p>
+                <h3>
+                    Elements
+                </h3>
+                <p>
+                    When referencing the elements section, please use this citation:
+                </p>
+                <p>
+                    <em>"Skinner, N., The SkinnerScience Administration Department, The SkinnerScience Element
+                        Information Department, and The SkinnerScience Advanced Information Department (2021). The
+                        SkinnerScience Interactive Periodic Table of Elements,
+                        https://skinnerscience.netlify.app/elements [Accessed <span id="datetime-3"></span>]"</em>
                 </p>
             </div>
             <div class="section">
-                <h2>
-                    People
-                </h2>
-                <div style="background-color: yellow; padding: .5em;">
-                    We currently have a reduced team size - if you are interested in joining the team, please contact
-                    the Administration Department.
-                </div>
-                <p></p>
                 <h3>
-                    Chairman
+                    Datasheets
                 </h3>
                 <p>
-                    Neo Skinner
+                    When referencing the datasheets section, please use this citation:
                 </p>
-                <h3>
-                    Researchers
-                </h3>
                 <p>
-                    Tyler Rocha
+                    <em>"Skinner, N., The SkinnerScience Administration Department, and The SkinnerScience Datasheet
+                        Information Department (2021). The SkinnerScience D# Datasheet Collection,
+                        https://skinnerscience.netlify.app/elements [Accessed <span id="datetime-4"></span>]"</em>
                 </p>
             </div>
             <div class="section">
@@ -177,6 +170,13 @@
             </div>
         </div>
     </main>
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
+        document.getElementById("datetime-2").innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
+        document.getElementById("datetime-3").innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
+        document.getElementById("datetime-4").innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
+    </script>
     <script src="../../copyright-year.js"></script>
 </body>
 
