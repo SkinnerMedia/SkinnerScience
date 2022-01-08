@@ -536,6 +536,10 @@ img.center {
     display: block;
 }
 
+.hidden {
+    display: none;
+}
+
 @media print {
     .resp-hide {
         display: none;
