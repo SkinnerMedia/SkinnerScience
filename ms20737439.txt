@@ -1,5 +1,0 @@
-﻿{
-  "Description": "Domain ownership verification file for Microsoft 365 - place in the website root",
-  "Domain": "skinnerscience.netlify.app",
-  "Id": "821e9a3e-905a-461b-85e6-9430c1adacc0"
-}
