@@ -594,3 +594,23 @@ img.key {
         background-color: initial;
     }
 }
+
+@media print {
+    header {
+        background-color: transparent;
+        border-bottom: none;
+    }
+
+    .logo h1 {
+        color: black;
+        font-size: 1rem;
+    }
+
+    .logo img {
+        width: 2em;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}
