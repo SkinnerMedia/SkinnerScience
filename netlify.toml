@@ -89,6 +89,12 @@
   force = true
 
 [[redirects]]
+  from = "/hpq/log"
+  to = "/files/hpq/AQA-7992-CRF-22.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/*"
   to = "/404.html"
   status = 404
