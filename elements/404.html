@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://skinnerscience.netlify.app/stylesheet.css">
+  <link rel="shortcut icon" href="https://skinnerscience.netlify.app/favicon.svg" type="image/x-icon">
+  <title>404 | SkinnerScience</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="https://skinnerscience.netlify.app/">
+        <img src="https://skinnerscience.netlify.app/favicon.svg" alt="Logo" width="70em">
+        <h1>SkinnerScience</h1>
+      </a>
+    </div>
+    <nav>
+      <p>
+        <small>
+          Copyright &copy; Neo Skinner, 2021-<span id="copyright-year"></span>
+        </small>
+      </p>
+      <ul>
+        <li>
+          <h2>
+            HTTP 404: Work In Progress
+          </h2>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="sections p404" style="justify-content: center; align-items: center; height: 85vh;">
+    <div class="section"
+      style=" display:flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; background-color: yellow; padding: .5em;">
+      <h1 style="font-size: 10em;">
+        *cough*
+      </h1>
+      <h1>
+        We&apos;re still working on this element at the moment...
+      </h1>
+      <br>
+      <h2>
+        <a class="reduced-link" href="https://skinnerscience.netlify.app/elements">🠔 Back to table</a>
+      </h2>
+      <br>
+      <br>
+      <h1>
+        Want to speed up progess?
+      </h1>
+      <h2>
+        Apply as a volunteer here by contacting the administration department <a
+          href="https://skinnerscience.netlify.app/about/team" class="inline-link">here</a>.
+      </h2>
+    </div>
+  </main>
+  <script>
+    (function () {
+      if (document.referrer &&
+        document.location.host &&
+        document.referrer.match(new RegExp("^https?://" + document.location.host))) {
+        document.getElementById("back-link").setAttribute("href", document.referrer);
+      }
+    }
+    )();
+  </script>
+  <script src="../copyright-year.js"></script>
+</body>
+
+</html>
