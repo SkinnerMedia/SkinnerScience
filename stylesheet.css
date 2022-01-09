@@ -458,7 +458,9 @@ table:not(.periodic_table):not(.key) {
     .emission_spectrum {
         width: 8em;
     }
+}
 
+@media print, screen and (max-width: 1460px) {
     .element {
         margin-bottom: 2em;
     }
@@ -608,9 +610,5 @@ img.key {
 
     .logo img {
         width: 2em;
-    }
-
-    h1 {
-        font-size: 1rem;
     }
 }
