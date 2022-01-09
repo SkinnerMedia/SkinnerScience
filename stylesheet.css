@@ -58,7 +58,6 @@ header {
 
 main {
     margin: 1em;
-    margin-bottom: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -331,7 +330,6 @@ nav ul li a:hover,
 .section li {
     background-color: lightgray;
     padding: .5em;
-    height: 20em;
     width: 100%;
     position: relative;
     cursor: pointer;
@@ -414,10 +412,20 @@ nav ul li a:hover,
 @media print, screen and (max-width: 1460px) {
     .sections {
         flex-direction: column;
+        display: initial;
     }
 
     .section {
-        width: 100%;
+        width: 95%;
+        margin: 0;
+    }
+
+    .section li {
+        height: 10em;
+    }
+
+    .thumbnail-wrapper {
+        height: 10em;
     }
 }
 
@@ -436,6 +444,20 @@ table {
 
 table:not(.periodic_table):not(.key) {
     width: 100%;
+}
+
+.emission_spectrum {
+    width: 20em;
+}
+
+@media screen and (max-width: 1460px) {
+    .emission_spectrum {
+        width: 8em;
+    }
+
+    .element {
+        margin-bottom: 2em;
+    }
 }
 
 table th {
@@ -540,8 +562,26 @@ img.center {
     display: none;
 }
 
+img.key {
+    width: 20%;
+}
+
+@media screen and (max-width: 560px) {
+    .resp-hide, nav p {
+        display: none;
+    }
+
+    header {
+        position: relative;
+    }
+
+    img.key {
+        width: 95%;
+    }
+}
+
 @media print {
-    .resp-hide {
+    .print-hide {
         display: none;
     }
 
