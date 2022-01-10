@@ -327,7 +327,16 @@ nav ul li a:hover,
     margin: 0;
 }
 
-.section li {
+.section ul.particle {
+    margin: 0;
+    padding: 0;
+}
+
+.section li.particle {
+    list-style-type: none;
+}
+
+.section li:not(.particle) {
     background-color: lightgray;
     padding: .5em;
     width: 100%;
@@ -375,11 +384,11 @@ nav ul li a:hover,
     font-size: 1.5em;
 }
 
-.section li a {
+.section li:not(.particle) a {
     background-color: lightgray;
 }
 
-.section li a:hover {
+.section li:not(.particle) a:hover {
     background-color: #2aff40;
 }
 
@@ -424,7 +433,7 @@ nav ul li a:hover,
         margin: auto;
     }
 
-    .section li {
+    .section li:not(.particle) {
         height: 10em;
     }
 
@@ -446,7 +455,7 @@ table {
     font-weight: bold;
 }
 
-table:not(.periodic_table):not(.key) {
+table:not(.periodic_table, .standard_model):not(.key) {
     width: 100%;
 }
 
@@ -510,7 +519,7 @@ table td {
     margin-right: auto;
 }
 
-.periodic_table td {
+.periodic_table td, .standard_model td {
     text-align: center;
     height: 70px;
     width: 70px;
@@ -518,11 +527,23 @@ table td {
     padding: 0;
 }
 
-table.periodic_table td:hover:not(.exception) {
+.standard_model td {
+    height: 100px;
+    width: 100px;
+}
+
+.standard_model th {
+    height: auto;
+    background-color: transparent;
+    color: black;
+    vertical-align: bottom;
+}
+
+table.periodic_table td:hover:not(.exception), table.standard_model td:hover:not(.exception) {
     background-color: #2aff40;
 }
 
-.periodic_table .exception {
+.periodic_table .exception, .standard_model .exception {
     border: none;
     cursor: initial;
 }
