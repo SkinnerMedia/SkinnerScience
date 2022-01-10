@@ -336,7 +336,7 @@ nav ul li a:hover,
     list-style-type: none;
 }
 
-.section li:not(.particle) {
+.section li:not(.particle, .list) {
     background-color: lightgray;
     padding: .5em;
     width: 100%;
@@ -347,18 +347,6 @@ nav ul li a:hover,
 
 .section .display:hover {
     background-color: #2aff40;
-}
-
-.section .list {
-    background-color: transparent;
-    cursor: initial;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-}
-
-.section .list:hover {
-    background-color: transparent;
 }
 
 .thumbnail-wrapper {
@@ -390,6 +378,18 @@ nav ul li a:hover,
 
 .section li:not(.particle) a:hover {
     background-color: #2aff40;
+}
+
+.section .list {
+    background-color: transparent;
+    cursor: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.section .list:hover {
+    background-color: transparent;
 }
 
 .section .display:hover a {
