@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-h1 small {
+h1 small, h2 small, h3 small {
     text-transform: uppercase;
     font-size: .5em;
     color: #7F7F7F;
