@@ -401,8 +401,8 @@ nav ul li a:hover,
 .section .list a {
     z-index: 0;
     position: relative;
-    margin-bottom: .7em;
-    font-size: 1.5em;
+    margin-bottom: .5em;
+    font-size: 1.3em;
 }
 
 .section h2 {
