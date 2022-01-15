@@ -155,6 +155,8 @@ p a:hover:not(.inline-link), .link:hover {
 
 .logo img {
     width: 5em;
+    pointer-events: none;
+    user-select: none;
 }
 
 nav p {
@@ -591,6 +593,11 @@ img.center {
 
 img.key {
     width: 20%;
+}
+
+img.nonselect {
+    pointer-events: none;
+    user-select: none;
 }
 
 @media screen and (max-width: 560px) {
