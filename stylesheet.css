@@ -399,7 +399,7 @@ nav ul li a:hover,
 .section .list a {
     z-index: 0;
     position: relative;
-    margin-bottom: 1em;
+    margin-bottom: .7em;
     font-size: 1.5em;
 }
 
