@@ -249,12 +249,12 @@ nav ul li a:hover,
     padding: .5em;
 }
 
-.form {
+.form:not(.element) {
     background-color: lightgray;
     padding: .5em 1em .5em .5em;
 }
 
-.form label {
+.form label, form label {
     font-weight: bold;
 }
 
@@ -279,6 +279,13 @@ nav ul li a:hover,
     width: 100.8%;
 }
 
+.form.element select {
+    box-sizing: content-box;
+    display: unset;
+    width: 30em;
+}
+
+
 .input-group input:focus, .input-group textarea:focus, .input-group select:focus {
     border: .15em solid dimgray;
 }
@@ -287,7 +294,7 @@ nav ul li a:hover,
     resize: vertical;
 }
 
-.form button {
+.form button, form button {
     outline: none;
     border: none;
     border-radius: 0;
@@ -301,7 +308,7 @@ nav ul li a:hover,
     position: relative;
 }
 
-.form button::after {
+.form button::after, form button::after {
     content: "";
     position: absolute;
     left: 0;
@@ -318,7 +325,7 @@ nav ul li a:hover,
     transition: transform 50ms ease-in, -webkit-transform 50ms ease-in;
 }
 
-.form button:hover::after {
+.form button:hover::after, form button:hover::after {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
     -webkit-transform-origin: bottom;
