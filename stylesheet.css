@@ -167,7 +167,7 @@ nav p {
 }
 
 nav {
-    margin-top: -8vh;
+    margin-top: -4.5em;
     float: right;
 }
 
@@ -205,7 +205,7 @@ nav ul li a:hover,
     background-color: #0dd621;
 }
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1840px) {
     nav {
         float: none;
         margin-top: 0;
@@ -614,7 +614,7 @@ img.nonselect {
     user-select: none;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 760px) {
     .resp-hide, nav p {
         display: none;
     }
