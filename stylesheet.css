@@ -483,6 +483,10 @@ table:not(.periodic_table, .standard_model):not(.key) {
     .emission_spectrum {
         width: 8em;
     }
+
+    .section .list {
+        margin-bottom: 10em;
+    }
 }
 
 @media print, screen and (max-width: 1460px) {
@@ -625,6 +629,12 @@ img.nonselect {
 
     img.key {
         width: 95%;
+    }
+
+    .section .list {
+        background-color: transparent;
+        cursor: initial;
+        display: block;
     }
 }
 

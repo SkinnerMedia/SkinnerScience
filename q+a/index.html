@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
+    <link rel="manifest" href="../manifest.json">
+    <script type="module" src="../pwabuilder-sw-register.js"></script>
+    <title>Q&amp;A | SkinnerScience</title>
+    <style>
+        .section {
+            width: 50%;
+        }
+
+        @media print,
+        screen and (max-width: 1460px) {
+            .section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../">
+                <img src="../favicon.svg" alt="Logo" width="70em">
+                <h1>SkinnerScience</h1>
+            </a>
+        </div>
+        <nav>
+            <p>
+                <small>
+                    Copyright &copy; Neo Skinner and the SkinnerScience Team, 2021-<span id="copyright-year"></span>
+                </small>
+            </p>
+            <ul>
+                <li>
+                    <a href="../periodic_table/">Periodic Table</a>
+                </li>
+                <li>
+                    <a href="../standard_model/">Standard Model</a>
+                </li>
+                <li>
+                    <a href="../elements/">Elements</a>
+                </li>
+                <li>
+                    <a href="../particles/">Particles</a>
+                </li>
+                <li>
+                    <a href="../datasheets/">Datasheets</a>
+                </li>
+                <li>
+                    <a href="../compounds/">Compounds</a>
+                </li>
+                <li>
+                    <a href="../units/">Units</a>
+                </li>
+                <li>
+                    <a href="../scientists/">Scientists</a>
+                </li>
+                <li>
+                    <a href="../governing_bodies/">Governing Bodies</a>
+                </li>
+                <li>
+                    <a href="../q+a/">Q&amp;A</a>
+                </li>
+                <li>
+                    <a href="../exam_info/">Exam Information</a>
+                </li>
+                <li>
+                    <a href="../wiki/">Main Wiki</a>
+                </li>
+                <li>
+                    <a href="../about/">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            Q&amp;A
+        </h1>
+        <br>
+        <div class="sections">
+            <div class="section element">
+                <h2>
+                    Why are compounds a solid, liquid, or gas?
+                </h2>
+                <p>
+                    Compounds are either a solid, liquid, or gas at room temperature (standard temperature and pressure)
+                    because of the bonding between particles. For each compound, the bonds between particles will hold
+                    different amounts of energy that have to be overcome when heating. Thus the more energy a bond
+                    holds, the more likely it is for the substance to be a solid.
+                </p>
+                <h2>
+                    Why do elements react differently?
+                </h2>
+                <p>
+                    Elements react differently due to their electronic configuration. The closer the element is to the
+                    first and seventh (A-Level: seventeenth) groups (excluding group eight - or A-Level eighteen - which
+                    are extremely unreactive) the more reactive it is. This is beacause it is easier to lose or gain
+                    only one electron, giving an element its reactivity.
+                </p>
+                <p>
+                    The reactivity also depends on the reactants, as different elements reacting together behave
+                    differently. However, this can also be explained using electron configuration - with extreme
+                    reactions occuring with elements that only gain or lose one electron (such as sodium with chlorine).
+                </p>
+                <h2>
+                    What makes elements radioactive?
+                </h2>
+                <p>
+                    Radioactivity arises because each element wants to acheive stability. To do this, an element
+                    normally forms an ion in a compound; however, there are two forms of stability: a full outer
+                    electron shell and - the one that causes radioactive decay - equal numbers of nucleons (protons and
+                    neutrons) in the nucleus.
+                </p>
+                <p>
+                    Radioactive decay occurs due a difference in the number of nucleons (protons and neutons) in the
+                    nucleus. Because the atom wants to acheive stability, its only option with a mismatched amount of
+                    neucleons is to eject some of its component particles (protons, neutrons, and electrons) and become
+                    a (hopefully stable) daughter isotope.
+                </p>
+            </div>
+            <div class="section element">
+                <h2>
+                    Question not listed?
+                </h2>
+                <p>
+                    Fill out the form below and we&apos;ll be more than happy to answer your question.
+                </p>
+                <div class="form">
+                    <form data-netlify="true" method="POST" enctype="multipart/form-data" data-netlify-recaptcha="true"
+                        netlify-honeypot="bot-field" name="Contact Q&A Department" action="/about/success/">
+                        <div class="input-group hidden">
+                            <label>Don&apos;t fill this out if you&apos;re human:
+                                <input name="bot-field" />
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label>First Name:
+                                <br>
+                                <input type="text" name="FName" required />
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label>Last Name:
+                                <br>
+                                <input type="text" name="LName" required />
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label>Email:
+                                <br>
+                                <input type="email" name="Email" required />
+                            </label>
+                        </div>
+                        <div class="input-group">
+                            <label>Your Question:
+                                <br>
+                                <textarea name="Question" rows="15"></textarea>
+                            </label>
+                        </div>
+                        <div class="input-group" data-netlify-recaptcha="true"></div>
+                        <div style="display: flex;">
+                            <button id="form-submit" type="submit" name="Submit" onclick="form_submit()">Submit</button>
+                            <p id="form-response"></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../copyright-year.js"></script>
+</body>
+
+</html>
