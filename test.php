@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- #include virtual="header.shtml" -->
+    <?php include("header.html"); ?>
 </body>
 
 </html>
