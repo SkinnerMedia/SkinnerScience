@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../stylesheet.css">
+    <link rel="shortcut icon" href="../../../../favicon.svg" type="image/x-icon">
+    <link rel="manifest" href="../../../../manifest.json">
+    <script type="module" src="../../../../pwabuilder-sw-register.js"></script>
+    <title>Edu Portal: Quiz Week 1 | SkinnerScience</title>
+    <style>
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="../../../">
+                <img src="../../../favicon.svg" alt="Logo" width="70em">
+                <h1>SkinnerScience
+                    <small style="color: #acacac;">Edu</small>
+                </h1>
+            </a>
+        </div>
+        <nav>
+            <p>
+                <small>
+                    Copyright &copy; Neo Skinner and the SkinnerScience Team, 2021-<span id="copyright-year"
+                        style="font-weight: normal;"></span>
+                </small>
+            </p>
+        </nav>
+    </header>
+    <main id="main">
+        <h1>
+            Quiz Week 1.
+        </h1>
+        <h1 class="right">
+            <a class="reduced-link print-hide" onclick="launchFullScreen(document.documentElement), adjustPage()"
+                style="float: right; cursor: pointer;" id="btn">Fullscreen</a>
+        </h1>
+        <ol style=" font-size: 1.5em;">
+            <li>
+                What bonding occurs between metals and non-metals?<br>
+                <span id="a1"></span>
+            </li>
+            <li>
+                What is the chemical formula of methane?<br>
+                <span id="a2"></span>
+            </li>
+            <li>
+                What does DNA stand for?<br>
+                <span id="a3"></span>
+            </li>
+            <li>
+                What is the constant speed equation?<br>
+                <span id="a4"></span>
+            </li>
+            <li>
+                What is the chemical formula for an alkane with 117 carbon atoms?<br>
+                <span id="a5"></span>
+            </li>
+            <li>
+                What is the atomic number of the largest predicted element?<br>
+                <span id="a6"></span>
+            </li>
+        </ol>
+        <h1>
+            <a class="reduced-link print-hide" onclick="answers()" style="cursor: pointer;" id="answers">Answers</a>
+        </h1>
+    </main>
+    <script src="../../../../copyright-year.js"></script>
+    <script>
+        function launchFullScreen(element) {
+            if (element.requestFullScreen) {
+                element.requestFullScreen();
+            } else if (element.mozRequestFullScreen) {
+                element.mozRequestFullScreen();
+            } else if (element.webkitRequestFullScreen) {
+                element.webkitRequestFullScreen();
+            }
+        }
+        window.onload = function () {
+            launchFullScreen(document.documentElement);
+        }
+        function adjustPage() {
+            document.getElementById("main").style.fontSize = "200%";
+            document.getElementById("header").style.display = "none";
+            document.getElementById("btn").style.display = "none";
+        }
+        function answers() {
+            document.getElementById("a1").innerHTML = "Ionic";
+            document.getElementById("a2").innerHTML = "CH<sub>4</sub>";
+            document.getElementById("a3").innerHTML = "Deoxyribonucleic Acid";
+            document.getElementById("a4").innerHTML = "Speed = Distance / Time (S=D/t)";
+            document.getElementById("a5").innerHTML = "C<sub>117</sub>H<sub>236</sub> (Heptadecahectane)";
+            document.getElementById("a6").innerHTML = "184 (Uoq - Unoctquadium)";
+            document.getElementById("answers").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

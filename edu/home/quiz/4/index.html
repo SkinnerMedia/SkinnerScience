@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../stylesheet.css">
+    <link rel="shortcut icon" href="../../../../favicon.svg" type="image/x-icon">
+    <link rel="manifest" href="../../../../manifest.json">
+    <script type="module" src="../../../../pwabuilder-sw-register.js"></script>
+    <title>Edu Portal: Quiz Week 4 | SkinnerScience</title>
+    <style>
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="../../../">
+                <img src="../../../favicon.svg" alt="Logo" width="70em">
+                <h1>SkinnerScience
+                    <small style="color: #acacac;">Edu</small>
+                </h1>
+            </a>
+        </div>
+        <nav>
+            <p>
+                <small>
+                    Copyright &copy; Neo Skinner and the SkinnerScience Team, 2021-<span id="copyright-year"
+                        style="font-weight: normal;"></span>
+                </small>
+            </p>
+        </nav>
+    </header>
+    <main id="main">
+        <h1>
+            Quiz Week 4.
+        </h1>
+        <h1 class="right">
+            <a class="reduced-link print-hide" onclick="launchFullScreen(document.documentElement), adjustPage()"
+                style="float: right; cursor: pointer;" id="btn">Fullscreen</a>
+        </h1>
+        <ol style=" font-size: 1.5em;">
+            <li>
+                How many atoms are there in one molecule of mercury?<br>
+                <span id="a1"></span>
+            </li>
+            <li>
+                What does IVF stand for?<br>
+                <span id="a2"></span>
+            </li>
+            <li>
+                What is the unit of weight?<br>
+                <span id="a3"></span>
+            </li>
+            <li>
+                What is held by the vascular bundle in plants?<br>
+                <span id="a4"></span>
+            </li>
+            <li>
+                What isotope of uranium is used in nuclear reactors?<br>
+                <span id="a5"></span>
+            </li>
+            <li>
+                What is the electron configuration of oxygen?<br>
+                <span id="a6"></span>
+            </li>
+        </ol>
+        <h1>
+            <a class="reduced-link print-hide" onclick="answers()" style="cursor: pointer;" id="answers">Answers</a>
+        </h1>
+    </main>
+    <script src="../../../../copyright-year.js"></script>
+    <script>
+        function launchFullScreen(element) {
+            if (element.requestFullScreen) {
+                element.requestFullScreen();
+            } else if (element.mozRequestFullScreen) {
+                element.mozRequestFullScreen();
+            } else if (element.webkitRequestFullScreen) {
+                element.webkitRequestFullScreen();
+            }
+        }
+        window.onload = function () {
+            launchFullScreen(document.documentElement);
+        }
+        function adjustPage() {
+            document.getElementById("main").style.fontSize = "200%";
+            document.getElementById("header").style.display = "none";
+            document.getElementById("btn").style.display = "none";
+        }
+        function answers() {
+            document.getElementById("a1").innerHTML = "2 (Diatomic - Hg<sub>2</sub>)";
+            document.getElementById("a2").innerHTML = "In Vitro Fertilisation";
+            document.getElementById("a3").innerHTML = "Newtons (N)";
+            document.getElementById("a4").innerHTML = "Xylem and Phloem";
+            document.getElementById("a5").innerHTML = "235 (U-235 - P92 - N143)";
+            document.getElementById("a6").innerHTML = "[He] 2s<sup>2</sup> 2p<sup>4</sup> (1s<sup>2</sup> 2s<sup>2</sup> 2p<sup>4</sup>)";
+            document.getElementById("answers").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

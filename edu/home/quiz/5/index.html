@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../stylesheet.css">
+    <link rel="shortcut icon" href="../../../../favicon.svg" type="image/x-icon">
+    <link rel="manifest" href="../../../../manifest.json">
+    <script type="module" src="../../../../pwabuilder-sw-register.js"></script>
+    <title>Edu Portal: Quiz Week 5 | SkinnerScience</title>
+    <style>
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="../../../">
+                <img src="../../../favicon.svg" alt="Logo" width="70em">
+                <h1>SkinnerScience
+                    <small style="color: #acacac;">Edu</small>
+                </h1>
+            </a>
+        </div>
+        <nav>
+            <p>
+                <small>
+                    Copyright &copy; Neo Skinner and the SkinnerScience Team, 2021-<span id="copyright-year"
+                        style="font-weight: normal;"></span>
+                </small>
+            </p>
+        </nav>
+    </header>
+    <main id="main">
+        <h1>
+            Quiz Week 5.
+        </h1>
+        <h1 class="right">
+            <a class="reduced-link print-hide" onclick="launchFullScreen(document.documentElement), adjustPage()"
+                style="float: right; cursor: pointer;" id="btn">Fullscreen</a>
+        </h1>
+        <ol style=" font-size: 1.5em;">
+            <li>
+                How many pairs of chromosomes are there in a normal human body cell?<br>
+                <span id="a1"></span>
+            </li>
+            <li>
+                What is the mass number of sodium?<br>
+                <span id="a2"></span>
+            </li>
+            <li>
+                What is the current equation?<br>
+                <span id="a3"></span>
+            </li>
+            <li>
+                What is the ionic charge of ammonium?<br>
+                <span id="a4"></span>
+            </li>
+            <li>
+                What is the unit of absorbed radiation?<br>
+                <span id="a5"></span>
+            </li>
+            <li>
+                What is the frequency of caesium in hertz?<br>
+                <span id="a6"></span>
+            </li>
+        </ol>
+        <h1>
+            <a class="reduced-link print-hide" onclick="answers()" style="cursor: pointer;" id="answers">Answers</a>
+        </h1>
+    </main>
+    <script src="../../../../copyright-year.js"></script>
+    <script>
+        function launchFullScreen(element) {
+            if (element.requestFullScreen) {
+                element.requestFullScreen();
+            } else if (element.mozRequestFullScreen) {
+                element.mozRequestFullScreen();
+            } else if (element.webkitRequestFullScreen) {
+                element.webkitRequestFullScreen();
+            }
+        }
+        window.onload = function () {
+            launchFullScreen(document.documentElement);
+        }
+        function adjustPage() {
+            document.getElementById("main").style.fontSize = "200%";
+            document.getElementById("header").style.display = "none";
+            document.getElementById("btn").style.display = "none";
+        }
+        function answers() {
+            document.getElementById("a1").innerHTML = "23 (46 chromosomes)";
+            document.getElementById("a2").innerHTML = "23 (11 - Na)";
+            document.getElementById("a3").innerHTML = "Current = Potential Difference / Resistance (I=V/R - Ohm&apos;s Law)<br>OR Current = Charge / Time (I=Q/t)";
+            document.getElementById("a4").innerHTML = "1+ (NH<sub>4</sub><sup>+</sup>)";
+            document.getElementById("a5").innerHTML = "Sievert (Sv - Unit of ionizing radiation dose)";
+            document.getElementById("a6").innerHTML = "9192631770 Hz (55 - Cs - 133)";
+            document.getElementById("answers").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
