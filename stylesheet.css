@@ -215,7 +215,7 @@ nav ul li a:hover,
 }
 
 @media screen and (max-width: 1840px) {
-    nav {
+    nav:not(.vertical) {
         float: none;
         margin-top: 0;
     }
