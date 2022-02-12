@@ -166,7 +166,7 @@ nav p {
     margin-right: 1.3em;
 }
 
-nav {
+nav:not(.vertical) {
     margin-top: -4.5em;
     float: right;
 }
@@ -175,12 +175,20 @@ nav ul {
     display: flex;
 }
 
+nav.vertical ul {
+    flex-direction: column;
+}
+
 .contents, nav ul {
     list-style-type: none;
 }
 
-nav ul li {
+nav:not(.vertical) ul li {
     margin-right: 1.3em;
+}
+
+nav.vertical ul li {
+    margin-bottom: 1.3em;
 }
 
 .contents, nav ul {
