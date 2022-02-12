@@ -1,145 +1,263 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://skinnerscience.netlify.app/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/periodic_table/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/elements/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/particles/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/datasheets/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/wiki/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/about/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/periodic_table/styles/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/team/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/wiki/physics/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/about/references/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/wiki/physics/hep_+_nuclear/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/units/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/constants/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/wiki/physics/hep_+_nuclear/hep/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/units/second/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/constants/caesium_frequency/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/constants/speed_of_light/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/constants/luminous_efficacy/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/constants/planck/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/constants/elementary_charge/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/constants/boltzmann/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/units/metric/si/constants/avogadro/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://skinnerscience.netlify.app/wiki/physics/hep_+_nuclear/hep/particle_accelerator/</loc>
-  <lastmod>2022-01-15T12:24:37+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-
-
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://skinnerscience.netlify.app</loc>
+    <lastmod>2022-02-12</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.1</priority>
+    <image:image>
+      <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+      <!--ERROR - Object reference not set to an instance of an object.-->
+      <url>
+        <loc>https://skinnerscience.netlify.app/edu/</loc>
+        <lastmod>2022-02-12</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.1</priority>
+      </url>
+      <url>
+        <loc>https://skinnerscience.netlify.app/about/</loc>
+        <lastmod>2022-02-12</lastmod>
+        <changefreq>hourly</changefreq>
+        <priority>0.1</priority>
+        <image:image>
+          <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+          <!--ERROR - Object reference not set to an instance of an object.-->
+          <url>
+            <loc>https://skinnerscience.netlify.app/wiki/</loc>
+            <lastmod>2022-02-12</lastmod>
+            <changefreq>hourly</changefreq>
+            <priority>0.1</priority>
+            <image:image>
+              <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+              <!--ERROR - Object reference not set to an instance of an object.-->
+              <url>
+                <loc>https://skinnerscience.netlify.app/scientists/</loc>
+                <lastmod>2022-02-12</lastmod>
+                <changefreq>hourly</changefreq>
+                <priority>0.1</priority>
+                <image:image>
+                  <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                  <!--ERROR - Object reference not set to an instance of an object.-->
+                  <url>
+                    <loc>https://skinnerscience.netlify.app/units/</loc>
+                    <lastmod>2022-02-12</lastmod>
+                    <changefreq>hourly</changefreq>
+                    <priority>0.1</priority>
+                    <image:image>
+                      <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                      <!--ERROR - Object reference not set to an instance of an object.-->
+                      <url>
+                        <loc>https://skinnerscience.netlify.app/compounds/</loc>
+                        <lastmod>2022-02-12</lastmod>
+                        <changefreq>hourly</changefreq>
+                        <priority>0.1</priority>
+                        <image:image>
+                          <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                          <!--ERROR - Object reference not set to an instance of an object.-->
+                          <url>
+                            <loc>https://skinnerscience.netlify.app/datasheets/</loc>
+                            <lastmod>2022-02-12</lastmod>
+                            <changefreq>hourly</changefreq>
+                            <priority>0.1</priority>
+                            <image:image>
+                              <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                              <!--ERROR - Object reference not set to an instance of an object.-->
+                              <url>
+                                <loc>https://skinnerscience.netlify.app/particles/</loc>
+                                <lastmod>2022-02-12</lastmod>
+                                <changefreq>hourly</changefreq>
+                                <priority>0.1</priority>
+                                <image:image>
+                                  <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                  <!--ERROR - Object reference not set to an instance of an object.-->
+                                  <url>
+                                    <loc>https://skinnerscience.netlify.app/elements/</loc>
+                                    <lastmod>2022-02-12</lastmod>
+                                    <changefreq>hourly</changefreq>
+                                    <priority>0.1</priority>
+                                    <image:image>
+                                      <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                      <!--ERROR - Object reference not set to an instance of an object.-->
+                                      <url>
+                                        <loc>https://skinnerscience.netlify.app/periodic_table/</loc>
+                                        <lastmod>2022-02-12</lastmod>
+                                        <changefreq>hourly</changefreq>
+                                        <priority>0.1</priority>
+                                        <image:image>
+                                          <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                          <!--ERROR - Object reference not set to an instance of an object.-->
+                                          <url>
+                                            <loc>https://skinnerscience.netlify.app/</loc>
+                                            <lastmod>2022-02-12</lastmod>
+                                            <changefreq>hourly</changefreq>
+                                            <priority>0.1</priority>
+                                            <image:image>
+                                              <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                              <!--ERROR - Object reference not set to an instance of an object.-->
+                                              <url>
+                                                <loc>https://skinnerscience.netlify.app/about/references/</loc>
+                                                <lastmod>2022-02-12</lastmod>
+                                                <changefreq>hourly</changefreq>
+                                                <priority>0.1</priority>
+                                                <image:image>
+                                                  <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                  <!--ERROR - Object reference not set to an instance of an object.-->
+                                                  <url>
+                                                    <loc>https://skinnerscience.netlify.app/team/</loc>
+                                                    <lastmod>2022-02-12</lastmod>
+                                                    <changefreq>hourly</changefreq>
+                                                    <priority>0.1</priority>
+                                                    <image:image>
+                                                      <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                      <!--ERROR - Object reference not set to an instance of an object.-->
+                                                      <url>
+                                                        <loc>https://skinnerscience.netlify.app/wiki/physics/</loc>
+                                                        <lastmod>2022-02-12</lastmod>
+                                                        <changefreq>hourly</changefreq>
+                                                        <priority>0.1</priority>
+                                                        <image:image>
+                                                          <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                          <!--ERROR - Object reference not set to an instance of an object.-->
+                                                          <url>
+                                                            <loc>https://skinnerscience.netlify.app/units/metric/</loc>
+                                                            <lastmod>2022-02-12</lastmod>
+                                                            <changefreq>hourly</changefreq>
+                                                            <priority>0.1</priority>
+                                                            <image:image>
+                                                              <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                              <!--ERROR - Object reference not set to an instance of an object.-->
+                                                              <url>
+                                                                <loc>https://skinnerscience.netlify.app/compounds/alkanes/</loc>
+                                                                <lastmod>2022-02-12</lastmod>
+                                                                <changefreq>hourly</changefreq>
+                                                                <priority>0.1</priority>
+                                                                <image:image>
+                                                                  <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                                  <!--ERROR - Object reference not set to an instance of an object.-->
+                                                                  <url>
+                                                                    <loc>https://skinnerscience.netlify.app/periodic_table/styles/</loc>
+                                                                    <lastmod>2022-02-12</lastmod>
+                                                                    <changefreq>hourly</changefreq>
+                                                                    <priority>0.1</priority>
+                                                                    <image:image>
+                                                                      <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                                      <!--ERROR - Object reference not set to an instance of an object.-->
+                                                                      <url>
+                                                                        <loc>https://skinnerscience.netlify.app/units/metric/si/</loc>
+                                                                        <lastmod>2022-02-12</lastmod>
+                                                                        <changefreq>hourly</changefreq>
+                                                                        <priority>0.1</priority>
+                                                                        <image:image>
+                                                                          <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                                          <!--ERROR - Object reference not set to an instance of an object.-->
+                                                                          <url>
+                                                                            <loc>https://skinnerscience.netlify.app/units/metric/si/constants/</loc>
+                                                                            <lastmod>2022-02-12</lastmod>
+                                                                            <changefreq>hourly</changefreq>
+                                                                            <priority>0.1</priority>
+                                                                            <image:image>
+                                                                              <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                                              <!--ERROR - Object reference not set to an instance of an object.-->
+                                                                              <url>
+                                                                                <loc>https://skinnerscience.netlify.app/units/metric/si/units/</loc>
+                                                                                <lastmod>2022-02-12</lastmod>
+                                                                                <changefreq>hourly</changefreq>
+                                                                                <priority>0.1</priority>
+                                                                                <image:image>
+                                                                                  <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                                                  <!--ERROR - Object reference not set to an instance of an object.-->
+                                                                                  <url>
+                                                                                    <loc>https://skinnerscience.netlify.app/units/metric/si/constants/avogadro/</loc>
+                                                                                    <lastmod>2022-02-12</lastmod>
+                                                                                    <changefreq>hourly</changefreq>
+                                                                                    <priority>0.1</priority>
+                                                                                  </url>
+                                                                                  <url>
+                                                                                    <loc>https://skinnerscience.netlify.app/units/metric/si/constants/boltzmann/</loc>
+                                                                                    <lastmod>2022-02-12</lastmod>
+                                                                                    <changefreq>hourly</changefreq>
+                                                                                    <priority>0.1</priority>
+                                                                                  </url>
+                                                                                  <url>
+                                                                                    <loc>https://skinnerscience.netlify.app/units/metric/si/constants/elementary_charge/</loc>
+                                                                                    <lastmod>2022-02-12</lastmod>
+                                                                                    <changefreq>hourly</changefreq>
+                                                                                    <priority>0.1</priority>
+                                                                                  </url>
+                                                                                  <url>
+                                                                                    <loc>https://skinnerscience.netlify.app/units/metric/si/constants/planck/</loc>
+                                                                                    <lastmod>2022-02-12</lastmod>
+                                                                                    <changefreq>hourly</changefreq>
+                                                                                    <priority>0.1</priority>
+                                                                                  </url>
+                                                                                  <url>
+                                                                                    <loc>https://skinnerscience.netlify.app/units/metric/si/constants/luminous_efficacy/</loc>
+                                                                                    <lastmod>2022-02-12</lastmod>
+                                                                                    <changefreq>hourly</changefreq>
+                                                                                    <priority>0.1</priority>
+                                                                                  </url>
+                                                                                  <url>
+                                                                                    <loc>https://skinnerscience.netlify.app/units/metric/si/constants/speed_of_light/</loc>
+                                                                                    <lastmod>2022-02-12</lastmod>
+                                                                                    <changefreq>hourly</changefreq>
+                                                                                    <priority>0.1</priority>
+                                                                                  </url>
+                                                                                  <url>
+                                                                                    <loc>https://skinnerscience.netlify.app/units/metric/si/constants/caesium_frequency/</loc>
+                                                                                    <lastmod>2022-02-12</lastmod>
+                                                                                    <changefreq>hourly</changefreq>
+                                                                                    <priority>0.1</priority>
+                                                                                  </url>
+                                                                                  <url>
+                                                                                    <loc>https://skinnerscience.netlify.app/units/metric/si/units/second/</loc>
+                                                                                    <lastmod>2022-02-12</lastmod>
+                                                                                    <changefreq>hourly</changefreq>
+                                                                                    <priority>0.1</priority>
+                                                                                    <image:image>
+                                                                                      <image:loc>https://skinnerscience.netlify.app/favicon.svg</image:loc>
+                                                                                      <!--ERROR - Object reference not set to an instance of an object.-->
+                                                                                    </image:image>
+                                                                                    <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+                                                                                  </url>
+                                                                                </image:image>
+                                                                              </url>
+                                                                            </image:image>
+                                                                          </url>
+                                                                        </image:image>
+                                                                      </url>
+                                                                    </image:image>
+                                                                  </url>
+                                                                </image:image>
+                                                              </url>
+                                                            </image:image>
+                                                          </url>
+                                                        </image:image>
+                                                      </url>
+                                                    </image:image>
+                                                  </url>
+                                                </image:image>
+                                              </url>
+                                            </image:image>
+                                          </url>
+                                        </image:image>
+                                      </url>
+                                    </image:image>
+                                  </url>
+                                </image:image>
+                              </url>
+                            </image:image>
+                          </url>
+                        </image:image>
+                      </url>
+                    </image:image>
+                  </url>
+                </image:image>
+              </url>
+            </image:image>
+          </url>
+        </image:image>
+      </url>
+    </image:image>
+  </url>
 </urlset>
