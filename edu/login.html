@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
+    <link rel="shortcut icon" href="../favicon.svg" type="image/x-icon">
+    <link rel="manifest" href="../manifest.json">
+    <script type="module" src="../pwabuilder-sw-register.js"></script>
+    <title>Edu Portal: Login | SkinnerScience</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="../">
+                <img src="../favicon.svg" alt="Logo" width="70em">
+                <h1>SkinnerScience</h1>
+            </a>
+        </div>
+        <nav>
+            <p>
+                <small>
+                    Copyright &copy; Neo Skinner and the SkinnerScience Team, 2021-<span id="copyright-year"></span>
+                </small>
+            </p>
+            <ul>
+                <li>
+                    <h2>
+                        HTTP 200: Identify
+                    </h2>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main style="display: flex; justify-content: center;">
+        <div class="form" style="width: 50%;">
+            <form>
+                <div class="input-group">
+                    <label>School:
+                        <br>
+                        <select name="School" size="1">
+                            <option value="none" selected disabled hidden>Select a School</option>
+                            <option value="Magna Academy">Magna Academy</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label for="pswd">Password:
+                        <br>
+                        <input type="password" id="pswd" required />
+                    </label>
+                </div>
+                <div style="display: flex;">
+                    <button type="submit" name="Submit" onclick="checkPswd();">Submit</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script type="text/javascript">
+        function checkPswd() {
+            var confirmPassword = "0415";
+            var password = document.getElementById("pswd").value;
+            if (password == confirmPassword) {
+                window.location = "welcome.html";
+            }
+            else {
+                alert("Passwords do not match.");
+            }
+        }
+    </script>
+    <script src="../copyright-year.js"></script>
+</body>
+
+</html>
