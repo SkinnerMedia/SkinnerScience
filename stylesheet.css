@@ -189,6 +189,7 @@ nav:not(.vertical) ul li {
 
 nav.vertical ul li {
     margin-bottom: 1.3em;
+    font-size: 1.3em;
 }
 
 .contents, nav ul {
