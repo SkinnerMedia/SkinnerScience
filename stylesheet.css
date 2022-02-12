@@ -153,6 +153,11 @@ p a:hover:not(.inline-link), .link:hover {
     width: fit-content;
 }
 
+.logo a span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .logo img {
     width: 5em;
     pointer-events: none;
