@@ -1,0 +1,16 @@
+
+/* TEAM */
+Head Dev: Neo Skinner
+Contact: neo.ski@outlook.com, linktr.ee/NeoSki
+Twitter: @NeoSkin7
+From: Poole, Dorset, England
+			
+/* THANKS */
+Name: Tyler Rocha
+
+/* SITE */
+Last update: 2022/02/14
+Language: EN
+Standards: HTML5, CSS3
+Components: Microsoft Clarity, Google Analytics, Google Tag Manager
+Software: Visual Studio Code, GitHub, Netlify

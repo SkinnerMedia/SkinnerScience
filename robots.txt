@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /edu/
+
+Sitemap: https://skinnerscience.netlify.app/sitemap.xml
