@@ -678,3 +678,7 @@ img.nonselect {
         width: 2em;
     }
 }
+
+:target {
+    background-color: #fffb00a2;
+}
