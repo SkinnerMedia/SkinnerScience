@@ -1,5 +1,5 @@
-@import "node_modules/open-props/open-props.min.css";
-@import "node_modules/open-props/normalize.min.css";
+@import "open-props/style";
+@import "open-props/normalize";
 
 * {
     max-inline-size: none;
