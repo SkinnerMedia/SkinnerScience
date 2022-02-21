@@ -4,6 +4,6 @@ Disallow: /404.html
 Disallow: /netlify.toml
 Disallow: /copyright-year.js
 Disallow: /elements/404.html
-Disallow: /perticles/404.html
+Disallow: /particles/404.html
 
 Sitemap: https://skinnerscience.netlify.app/sitemap.xml
