@@ -10,11 +10,8 @@
     --brand-darker: #0DD621;
     --white: #FFFFFF;
     --black: #000000;
+    --yellow: #fffb00;
     --size-05: 0.05rem;
-}
-
-:target {
-    background-color: #fffb00a2;
 }
 
 html {
@@ -312,8 +309,12 @@ nav ul li a:hover,
     padding: .5em;
 }
 
-.form:not(.element) {
+.form {
+    color: var(--black);
     background-color: lightgray;
+}
+
+.form:not(.element) {
     padding: .5em 1em .5em .5em;
 }
 
@@ -329,17 +330,26 @@ nav ul li a:hover,
 .input-group input, .input-group textarea, .input-group select {
     outline: none;
     background: none;
-    border: .15em solid black;
+    border: .15em solid var(--black);
     color: inherit;
     border-radius: 0;
     font-family: inherit;
     width: 100%;
+    color: var(--black);
+}
+
+.input-group input, .input-group textarea {
+    cursor: text;
 }
 
 .input-group select {
     box-sizing: content-box;
     display: unset;
     width: 100.8%;
+}
+
+.form.element {
+    padding: .7em;
 }
 
 .form.element select {
@@ -365,9 +375,9 @@ nav ul li a:hover,
     font: inherit;
     font-weight: bold;
     text-decoration: none;
-    color: #2aff40;
+    color: var(--brand);
     padding: 0.05em 0.2em;
-    background-color: #000000;
+    background-color: var(--black);
     position: relative;
 }
 
@@ -569,24 +579,34 @@ table:not(.periodic_table, .standard_model):not(.key) {
 }
 
 table th {
-    border: 1px solid black;
+    border: 1px solid var(--text-1);
     border-collapse: collapse;
-    background-color: #7F7F7F;
-    color: #FFFFFF;
+    background-color: var(--gray-7);
+}
+
+table th h2 {
+    color: var(--white);
 }
 
 .hazards {
-    background-color: #fdc134;
-    color: #000000;
+    background-color: var(--yellow-7);
+}
+
+.hazards h2 {
+    color: var(--black);
 }
 
 table td {
-    border: 1px solid black;
+    border: 1px solid var(--text-1);
     border-collapse: collapse;
     padding-left: .5em;
     padding-right: .5em;
     padding-top: .1em;
     padding-bottom: .1em;
+}
+
+img, svg {
+    display: initial;
 }
 
 .key td {
@@ -628,12 +648,13 @@ table td {
 .standard_model th {
     height: auto;
     background-color: transparent;
-    color: black;
+    color: var(--black);
     vertical-align: bottom;
 }
 
 table.periodic_table td:hover:not(.exception), table.standard_model td:hover:not(.exception) {
-    background-color: #2aff40;
+    color: var(--black);
+    background-color: var(--brand);
 }
 
 .periodic_table .exception, .standard_model .exception {
@@ -647,7 +668,7 @@ table.periodic_table td:hover:not(.exception), table.standard_model td:hover:not
 }
 
 .periodic_table .break-end {
-    border-left: 5px solid black;
+    border-left: 5px solid var(--text-1);
     height: inherit;
     width: inherit;
 }
@@ -689,6 +710,12 @@ img.key {
 img.nonselect {
     pointer-events: none;
     user-select: none;
+}
+
+:target, :target * {
+    color: var(--black);
+    background-color: var(--brand);
+    padding: var(--size-1);
 }
 
 @media screen and (max-width: 880px) {
