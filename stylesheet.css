@@ -307,6 +307,7 @@ nav ul li a:hover,
 
 .section article {
     background-color: lightgray;
+    color: var(--black) !important;
     padding: .5em;
 }
 
