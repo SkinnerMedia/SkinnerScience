@@ -25,6 +25,7 @@ html {
     scrollbar-track-color: var(--surface-1);
     scrollbar-arrow-color: var(--surface-1);
     scrollbar-shadow-color: var(--surface-1);
+    scrollbar-color: var(--brand) var(--black);
 }
 
 ::-webkit-scrollbar {
@@ -485,6 +486,10 @@ nav ul li a:hover,
 .section .list a.spacer {
     background-color: transparent;
     cursor: default;
+}
+
+.section .list a.spacer:hover {
+    background-color: transparent;
 }
 
 .section h2 {
