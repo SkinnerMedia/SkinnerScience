@@ -204,6 +204,7 @@ nav p {
     padding: 0;
     text-align: end;
     margin-right: var(--size-3);
+    margin-top: -8.5vh;
 }
 
 nav:not(.vertical) {
