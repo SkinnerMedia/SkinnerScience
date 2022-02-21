@@ -13,6 +13,10 @@
     --size-05: 0.05rem;
 }
 
+:target {
+    background-color: #fffb00a2;
+}
+
 html {
     scrollbar-face-color: var(--brand);
     scrollbar-base-color: var(--surface-1);
@@ -730,8 +734,4 @@ img.nonselect {
     .logo img {
         width: 2em;
     }
-}
-
-:target {
-    background-color: #fffb00a2;
 }
