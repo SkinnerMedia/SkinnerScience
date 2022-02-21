@@ -1,3 +1,6 @@
+@import "node_modules/open-props/open-props.min.css";
+/* @import "node_modules/open-props/normalize.min.css"; */
+
 html {
     scrollbar-face-color: #2aff40;
     scrollbar-base-color: #000000;
