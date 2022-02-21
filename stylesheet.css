@@ -677,7 +677,7 @@ img.center {
 }
 
 img.key {
-    width: 20%;
+    width: var(--size-fluid-10);
 }
 
 img.nonselect {
