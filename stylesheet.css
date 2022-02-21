@@ -211,7 +211,6 @@ nav:not(.vertical) {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin-top: -8.5vh;
 }
 
 nav ul {
