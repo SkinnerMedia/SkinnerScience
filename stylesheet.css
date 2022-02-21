@@ -228,6 +228,7 @@ nav.vertical ul {
 
 nav:not(.vertical) ul li {
     margin-right: var(--size-3);
+    white-space: nowrap;
 }
 
 nav.vertical ul li {
