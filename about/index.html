@@ -297,13 +297,12 @@
         document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
     </script>
     <script>
-        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-            var theme = "dark";
-        }
-
-        if (theme == "dark") {
-            document.getElementById("recaptcha").setAttribute("g-recaptcha", "dark");
-        }
+        document.addEventListener('DOMContentLoaded', (event) => {
+            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+                const recaptcha = document.querySelector('.g-recaptcha');
+                recaptcha.setAttribute("data-theme", "dark");
+            }
+        });
     </script>
     <script src="../copyright-year.js"></script>
 </body>
