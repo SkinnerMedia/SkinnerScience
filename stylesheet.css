@@ -1,8 +1,13 @@
+/* Built using Open Props */
+
+/* Imports */
 @import "https://unpkg.com/open-props";
 @import "https://unpkg.com/open-props/normalize.min.css";
 
-* {
+/* Global Styles */
+*, *::after, *::before {
     max-inline-size: none;
+    box-sizing: border-box;
 }
 
 :root {
@@ -56,6 +61,8 @@ html {
     background-color: var(--surface-1);
 }
 
+/* Page Styles */
+
 body {
     margin: 0;
 }
@@ -76,6 +83,8 @@ main {
     margin: var(--size-3);
     padding-bottom: var(--size-3);
 }
+
+/* Text Styles */
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -316,8 +325,8 @@ nav ul li a:hover,
 }
 
 .form {
-    color: var(--black);
-    background-color: lightgray;
+    color: var(--text-1);
+    background-color: var(--surface-2);
 }
 
 .form:not(.element) {
@@ -336,12 +345,12 @@ nav ul li a:hover,
 .input-group input, .input-group textarea, .input-group select {
     outline: none;
     background: none;
-    border: .15em solid var(--black);
+    border: .15em solid var(--text-1);
     color: inherit;
     border-radius: 0;
     font-family: inherit;
     width: 100%;
-    color: var(--black);
+    color: var(--text-1);
 }
 
 .input-group input, .input-group textarea {
@@ -366,7 +375,7 @@ nav ul li a:hover,
 
 
 .input-group input:focus, .input-group textarea:focus, .input-group select:focus {
-    border: .15em solid dimgray;
+    border: .15em solid var(--gray-6);
 }
 
 .input-group textarea {
