@@ -11,6 +11,7 @@ Name: Tyler Rocha
 /* SITE */
 Last update: 2022/02/14
 Language: EN
-Standards: HTML5, CSS3
+Standards: HTML5, CSS3, ECMA Script 2018, PHP8
+Frameworks: Open Props
 Components: Microsoft Clarity, Google Analytics, Google Tag Manager
 Software: Visual Studio Code, GitHub, Netlify
