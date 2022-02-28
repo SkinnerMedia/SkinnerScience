@@ -479,6 +479,7 @@ nav ul li a:hover,
 
 .section li:not(.particle) a:hover {
     background-color: var(--brand);
+    color: var(--black);
 }
 
 .section .list {
