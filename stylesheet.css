@@ -445,6 +445,7 @@ nav ul li a:hover,
 
 .section .display:hover {
     background-color: var(--brand);
+    color: var(--black);
 }
 
 .thumbnail-wrapper {
