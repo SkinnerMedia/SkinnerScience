@@ -503,6 +503,7 @@ nav ul li a:hover,
 
 .section .display:hover a {
     background-color: var(--brand);
+    color: var(--black);
 }
 
 .section .list a {
