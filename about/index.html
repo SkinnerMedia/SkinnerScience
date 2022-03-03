@@ -84,14 +84,8 @@
     <meta name="apple-touch-fullscreen" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-    <!-- INTERNAL STYLING -->
-    <style>
-        iframe {
-            border-radius: 5px;
-            width: 302px;
-            height: 76px;
-        }
-    </style>
+    <!-- SCRIPTING -->
+    <script src="/include.js"></script>
 </head>
 
 <body>
@@ -300,19 +294,6 @@
             </div>
         </div>
     </main>
-    <script>
-        var dt = new Date();
-        document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
-    </script>
-    <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-                const recaptcha = document.querySelector('.g-recaptcha');
-                recaptcha.setAttribute("data-theme", "dark");
-            }
-        });
-    </script>
-    <script src="../copyright-year.js"></script>
 </body>
 
 </html>
