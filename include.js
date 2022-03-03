@@ -4,7 +4,11 @@ document.getElementById("copyright-year").innerHTML = (dt.getFullYear());
 
 // Date Insertion
 var dt = new Date();
-document.getElementById("datetime").innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
+const elementsList = document.querySelectorAll('[id^="datetime"]');
+const elementsArray = [...elementsList];
+elementsArray.forEach(element => {
+    element.innerHTML = (("0" + dt.getDate()).slice(-2)) + "/" + (("0" + (dt.getMonth() + 1)).slice(-2)) + "/" + (dt.getFullYear());
+});
 
 // ReCAPTCHA Theme
 document.addEventListener('DOMContentLoaded', (event) => {
