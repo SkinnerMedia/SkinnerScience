@@ -739,6 +739,12 @@ img.nonselect {
     padding: var(--size-1);
 }
 
+.g-recaptcha {
+    border-radius: 5px;
+    width: 302px;
+    height: 76px;
+}
+
 @media screen and (max-width: 880px) {
     .resp-hide, nav p {
         display: none;
