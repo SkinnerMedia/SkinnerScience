@@ -730,6 +730,8 @@ img.key {
 
 img.nonselect {
     pointer-events: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
     user-select: none;
 }
 
@@ -739,7 +741,7 @@ img.nonselect {
     padding: var(--size-1);
 }
 
-.g-recaptcha {
+iframe {
     border-radius: 5px;
     width: 302px;
     height: 76px;
