@@ -12,8 +12,4 @@ document.addEventListener('DOMContentLoaded', (event) => {
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
         recaptcha.setAttribute("data-theme", "dark");
     }
-    var iframe = document.querySelector('iframe');
-    iframe.style.borderRadius = "5px";
-    iframe.style.width = "302px";
-    iframe.style.height = "76px";
 });
