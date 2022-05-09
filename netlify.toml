@@ -96,13 +96,13 @@
 
 [[redirects]]
   from = "/standard_model/styles/full"
-  to = "/files/standard_model/full.png"
+  to = "/files/standard_models/full.png"
   status = 200
   force = true
 
 [[redirects]]
   from = "/standard_model/styles/blank"
-  to = "/files/standard_model/blank.png"
+  to = "/files/standard_models/blank.png"
   status = 200
   force = true
 
