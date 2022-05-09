@@ -17,6 +17,12 @@
   force = true
 
 [[redirects]]
+  from = "/datasheets/D4"
+  to = "/files/datasheets/set_01/d4_standard_model_of_elementary_particles.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/datasheets/sources"
   to = "/files/datasheets/set_01/sources.pdf"
   status = 200
@@ -85,6 +91,18 @@
 [[redirects]]
   from = "/periodic_table/styles/simplified_group_numbers_+_names"
   to = "/files/periodic_tables/simplified_group_numbers_+_names.png"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/periodic_table/styles/full"
+  to = "/files/periodic_tables/full.png"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/periodic_table/styles/blank"
+  to = "/files/periodic_tables/blank.png"
   status = 200
   force = true
 
