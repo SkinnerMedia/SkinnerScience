@@ -23,6 +23,18 @@
   force = true
 
 [[redirects]]
+  from = "/datasheets/D6"
+  to = "/files/datasheets/set_01/d6_si_unit_definitions.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/datasheets/D7"
+  to = "/files/datasheets/set_01/d7_si_defining_physical_constants.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/datasheets/sources"
   to = "/files/datasheets/set_01/sources.pdf"
   status = 200
