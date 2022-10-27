@@ -35,6 +35,12 @@
   force = true
 
 [[redirects]]
+  from = "/datasheets/D8"
+  to = "/files/datasheets/set_01/d8_radioactive_decay_modes.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/datasheets/sources"
   to = "/files/datasheets/set_01/sources.pdf"
   status = 200
