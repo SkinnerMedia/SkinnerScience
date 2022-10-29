@@ -23,6 +23,12 @@
   force = true
 
 [[redirects]]
+  from = "/datasheets/D5"
+  to = "/files/datasheets/set_01/d5_properties_of_elementary_particles.pdf"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/datasheets/D6"
   to = "/files/datasheets/set_01/d6_si_unit_definitions.pdf"
   status = 200
