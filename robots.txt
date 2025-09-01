@@ -6,4 +6,4 @@ Disallow: /copyright-year.js
 Disallow: /elements/404.html
 Disallow: /particles/404.html
 
-Sitemap: https://skinnerscience.netlify.app/sitemap.xml
+Sitemap: /sitemap.xml

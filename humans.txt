@@ -1,7 +1,7 @@
 
 /* TEAM */
 Head Dev: Neo Skinner
-Contact: neo.ski@outlook.com, linktr.ee/NeoSki
+Contact: neo.ski@outlook.com, neoski.uk
 Twitter: @NeoSkin7
 From: Poole, Dorset, England
 			
@@ -9,7 +9,6 @@ From: Poole, Dorset, England
 Name: Tyler Rocha
 
 /* SITE */
-Last update: 2022/02/14
 Language: EN
 Standards: HTML5, CSS3, ECMA Script 2018, PHP8
 Frameworks: Open Props
